@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "d27e35c1-40c3-435d-ac86-f0deef64ee19",
+		"name": "api.mercadolibre",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11053182"
+	},
+	"item": [
+		{
+			"name": "mercadolibre.mutant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"dna\":[\"ATGAAA\",\"CTGTGC\",\"TAATGT\",\"AGACCT\",\"GCACCA\",\"TTACTG\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://mercadolibrechallengeapirest-env.eba-hbhuguyv.us-west-2.elasticbeanstalk.com/mutant",
+					"protocol": "http",
+					"host": [
+						"mercadolibrechallengeapirest-env",
+						"eba-hbhuguyv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"mutant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://mercadolibrechallengeapirest-env.eba-hbhuguyv.us-west-2.elasticbeanstalk.com/stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://mercadolibrechallengeapirest-env.eba-hbhuguyv.us-west-2.elasticbeanstalk.com/stats",
+					"protocol": "http",
+					"host": [
+						"mercadolibrechallengeapirest-env",
+						"eba-hbhuguyv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://mercadolibrechallengeapirest-env.eba-hbhuguyv.us-west-2.elasticbeanstalk.com/mutants",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://mercadolibrechallengeapirest-env.eba-hbhuguyv.us-west-2.elasticbeanstalk.com/mutants",
+					"protocol": "http",
+					"host": [
+						"mercadolibrechallengeapirest-env",
+						"eba-hbhuguyv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"mutants"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
